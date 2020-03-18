@@ -8,12 +8,12 @@
 </head>
 <body>
 <div id='login' class="midden" >
-<form method='POST' action='singUp.php'>
+<form method='POST' action='signUp.php'>
 <h1> sing up : </h1>
 <h2> username: <input type='text' name='username' > </h2>
 <h2> password: <input type='password' name='password1' > </h2>
 <h2> repeat your password: <input type='password' name='password2' > </h2>
-<input type='submit' name='singIn' value='sing up' id="loginSubmit" > <br> 
+<input type='submit' name='signUp' value='sign up' id="loginSubmit" > <br> 
 
 </from> 
 

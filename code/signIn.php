@@ -14,7 +14,7 @@ if (isset($_POST['username'])) {
     header('location: games.php ');
   
     } else {
-        header("location: index.php?msg='the combination of the username and the password is invalid.' ");
+        header("location: ../index.php?msg='the combination of the username and the password is invalid.' ");
     }
 
 
