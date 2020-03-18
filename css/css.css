@@ -1,0 +1,121 @@
+#login
+{
+  width: 60%;
+  height:200px;
+  margin: 0 auto;
+  
+}
+
+.midden {
+    text-align: center;
+}
+
+
+#loginSubmit{
+    font-size:300%;
+}
+.flex{
+  height: 100px;
+  display: flex;
+ 
+  flex-flow: row wrap;
+ 
+  font-size: 300%;
+justify-content: space-around; 
+
+  align-items: center;
+ 
+}
+
+* {
+    background-color: lightblue;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    font-size: 20px;
+}
+#banner {
+  /*margin-top: 20px;*/
+  /*background-color: aquamarine;*/
+  height: 50%;
+  width: 100%;
+  margin-bottom: 20px;
+
+}
+#naamInBanner {
+  position: absolute;
+  margin-top: -3%;
+  margin-left: 5%;
+  background-color:none ;
+  color: red;
+}
+#logoutInBanner {
+    position: absolute;
+    margin-top: -3%;
+    margin-left: 70%;
+    background-color: none;
+    color: red;
+}
+#statusInBanner {
+    position: absolute;
+    margin-top: -3%;
+    margin-left: 90%;
+    background-color: none;
+    color: red;
+}
+#homeInBanner {
+    position: absolute;
+    margin-top: -3%;
+    margin-left: 80%;
+    background-color: none;
+    color: red;
+}
+h1 {
+    text-align: center;
+    font-size: 50px;
+    color: blue;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+h2, h3, h4, h5, h6 {
+    text-align: center;
+}
+
+
+.mameMenuBut {
+    box-shadow: inset 0px 1px 0px 0px #ffffff;
+    background: linear-gradient(to bottom, #ffffff 5%, #f6f6f6 100%);
+    background-color: #ffffff;
+    border-radius: 6px;
+    border: 1px solid #dcdcdc;
+    display: inline-block;
+    cursor: pointer;
+    color: #666666;
+    font-family: Arial;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 30px 100px;
+    text-decoration: none;
+    text-shadow: 0px 1px 0px #ffffff;
+    margin-top : 5%;
+}
+
+    .mameMenuBut:hover {
+        background: linear-gradient(to bottom, #f6f6f6 5%, #ffffff 100%);
+        background-color: #f6f6f6;
+    }
+
+    .mameMenuBut:active {
+        position: relative;
+        top: 1px;
+    }
+
+#gameStats {
+    display:block;
+}
+gameLink {
+    display: block;
+}
+gamestat {
+
+}
